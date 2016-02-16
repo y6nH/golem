@@ -1,0 +1,15 @@
+#:kivy 1.9.1
+
+# This file is not wired up, and so does nothing at the moment.
+
+<PlayButton>:
+    id: 'play'
+    size: 200, 50
+    text: 'Play'
+    canvas:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+<MainScreen>:
+    play_button: play
